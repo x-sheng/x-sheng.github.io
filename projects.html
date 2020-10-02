@@ -5,27 +5,25 @@
   <head>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
-  <div class="wrapper"></div>
-  <header class="nav-area">
-    <nav>
-      <span>
+  <div class="container">
+    <div id='navbar'>
+      <nav>
         <img class="rounded-lg" src="img/profile.jpeg" title="I'm Xing" width="200" />
-      </span>
-      <h1 id="name">Xing Sheng</h1>
-      <div id="navbar">
-        <ul class="navbar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+        <h1 id="name">Xing Sheng</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
-    </nav>
-  </header>
-  <div class="content">
-    <p class="bio">
-      My project information.
-    </p>
-  </div>
+      </nav>
+    </div>
+
+    <div id="content">
+      <p class="bio">
+        You can find the details of my projects in <a href="https://github.com/x-sheng">GitHub</a>. <br><br>
+        Higlight project: Board Game Othello using Object-oriented Python.
+      </p>
+    </div>
   </div>
 </body>
